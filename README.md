@@ -4,7 +4,7 @@ En este tutorial, crearemos una aplicación de funciones para mostrar un mensaje
 ## Tarea 1: Crear una aplicación Functions (5 minutos)
 En esta tarea, crearemos un aplicación de funciones.
 
-  1. Inicie sesión en *[Azure Portal]*(https://portal.azure.com/).
+  1. Inicie sesión en [Azure Portal](https://portal.azure.com/).
 
   2. En el cuadro de texto *Buscar recursos, servicios y documentos*, en la parte superior del portal, busque y seleccione *Aplicación de funciones* y luego, desde la hoja *Aplicación de funciones*, haga clic en *Agregar*.
 
