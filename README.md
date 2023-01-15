@@ -29,6 +29,8 @@ En esta tarea, crearemos un aplicación de funciones.
 
   6. Vuelva a la hoja de *Aplicación de funciones*, haga clic en *Actualizar* y compruebe que la aplicación de función recién creada tenga el estado *Ejecutando*.
 
+  ![Alt text](./img/1.PNG)
+
 ## Tarea 2: Crear una función activada por HTTP y probar
 En esta tarea, usaremos la función API de Webhook para mostrar un mensaje cuando haya una solicitud HTTP.
 
@@ -36,20 +38,26 @@ En esta tarea, usaremos la función API de Webhook para mostrar un mensaje cuand
 
   2. En la hoja de la aplicación de funciones, en la sección *Funciones*, haga clic en *Funciones* y luego en *+ Agregar*.
 
+![Alt text](./img/2.PNG)
 
   3. En la pestaña *Plantillas* de la hoja *Nueva función*, haga clic en **Desencadenador HTTP**.
 
+![Alt text](./img/3.PNG)
+
   4. En la pestaña *Detalles* de la hoja Nueva función, acepte el **nombre predeterminado** *Nueva función* y el *Nivel de autorización* y luego haga clic en *Crear función*.
 
+![Alt text](./img/4.PNG)
 
   5. En la hoja **HttpTrigger1**, en la sección *Desarrollador*, haga clic en *Código + Prueba*.
 
   6. En la hoja **HttpTrigger1** | En la hoja *Código + prueba*, revise el código generado automáticamente y tenga en cuenta que el código está diseñado para ejecutar una solicitud HTTP y registrar información. Además, observe que la función devuelve un mensaje de saludo con un nombre.
 
+![Alt text](./img/5.PNG)
 
   7. Haga clic en *Obtener URL de función* desde la sección superior del editor de funciones.
 
   8. Asegúrese de que el valor en la lista desplegable *Clave* se establece en predeterminado y haga clic en *Copiar* para copiar la función URL.
+![Alt text](./img/6.PNG)
 
   9. Abra una nueva pestaña del explorador y pegue la URL de la función copiada en la barra de direcciones del explorador web. Cuando se solicite la página, la función se ejecutará. Observe el mensaje devuelto que indica que la función requiere un nombre en el cuerpo de la solicitud.
 
@@ -60,6 +68,7 @@ En esta tarea, usaremos la función API de Webhook para mostrar un mensaje cuand
 
   11. Cuando se ejecuta su función, se rastrea cada invocación. Para ver el seguimiento en Azure Portal, vuelva a **HttpTrigger1 | Hoja Código + Prueba** y haga clic en *Supervisar*.
 
+![Alt text](./img/7.PNG)
 
   **¡Enhorabuena! Ha creado una aplicación de funciones para mostrar un mensaje de saludo cuando hay una solicitud HTTP.**
 
