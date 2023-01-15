@@ -10,16 +10,16 @@ En esta tarea, crearemos un aplicación de funciones.
 
   3. En la pestaña *Básico* de la hoja *Aplicación de funciones*, especifique la siguiente configuración (reemplace xxxx en el nombre de la función por letras y dígitos, de modo que el nombre sea globalmente único, y deje todas las demás configuraciones con sus valores predeterminados):
 
-    | Configuración	| Valor |
-    |  -- | -- |
-    | Suscripción	| nombre de su suscripción de Azure |
-    | Grupo de recursos	| Nombre de un nuevo grupo de recursos **myRGFunction**
-    | Nombre de la aplicación de funciones |	función-xxxx |
-    | Publicar | Código |
-    | Pila de tiempo de ejecución |	NET Core |
-    | Versión	| 3.1 |
-    | Región	| Este de EE. UU. |
-    | | |
+      | Configuración	| Valor |
+      |  -- | -- |
+      | Suscripción	| nombre de su suscripción de Azure |
+      | Grupo de recursos	| Nombre de un nuevo grupo de recursos **myRGFunction**
+      | Nombre de la aplicación de funciones |	función-xxxx |
+      | Publicar | Código |
+      | Pila de tiempo de ejecución |	NET Core |
+      | Versión	| 3.1 |
+      | Región	| Este de EE. UU. |
+      | | |
 
    **Nota** - Recuerde cambiar xxxx de modo que sea un nombre de aplicación de Functions único
 
